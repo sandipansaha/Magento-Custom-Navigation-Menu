@@ -1,4 +1,9 @@
+.htaccess
+.htaccess.sample
+.idea/
 .modgit/
+api.php
+app/code/community/Cm/
 app/code/community/Find/
 app/code/community/Phoenix/
 app/code/core/
@@ -11,8 +16,10 @@ app/design/frontend/default/iphone/
 app/design/frontend/default/modern/
 app/design/frontend/enterprise/default
 app/design/install/
+app/etc/modules/Cm_*
 app/etc/modules/Enterprise_*
 app/etc/modules/Find_Feed.xml
+app/etc/modules/Mage_*
 app/etc/modules/Mage_All.xml
 app/etc/modules/Mage_Api.xml
 app/etc/modules/Mage_Authorizenet.xml
@@ -63,11 +70,14 @@ js/tiny_mce/
 js/varien/
 lib/3Dsecure/
 lib/Apache/
+lib/Cm/
+lib/Credis/
 lib/flex/
 lib/googlecheckout/
 lib/.htaccess
 lib/LinLibertineFont/
 lib/Mage/
+lib/Magento/
 lib/PEAR/
 lib/phpseclib/
 lib/Varien/
@@ -78,6 +88,7 @@ LICENSE.txt
 LICENSE_EE*
 mage
 media/customer/
+media/dhl/
 media/downloadable/
 media/.htaccess
 media/import/
